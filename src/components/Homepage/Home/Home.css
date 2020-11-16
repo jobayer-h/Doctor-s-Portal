@@ -1,0 +1,18 @@
+.hero-bg{
+    background-image: url(../../../images/Chair-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    position: relative;
+}
+.hero-bg::after{
+    background-color: #3A4256;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    content:'';
+    z-index: -1;
+}
