@@ -1,0 +1,25 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.testimonial-wraper {
+    box-shadow: 0px 0px 4px 5px #e6e6e6;
+    background-color: #fff;
+}
+
+.testimonial-wraper {
+    border-radius: 5px;
+    padding: inherit;
+}
+.testimonial-section{
+    margin: 50px auto;
+   
+}
+.testimonial-bg{
+    background-image: url(../../../images/quation.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 286px;
+}

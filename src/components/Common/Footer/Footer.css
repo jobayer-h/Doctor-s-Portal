@@ -1,0 +1,13 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 5px auto;
+}
+.footer-container{
+    background-image: url(../../../images/map.png);
+    background-size: cover;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import BusinessCard from '../BusinessCard/BusinessCard';
+import BusinessCard from './BusinessCard';
 import { faClock ,faMapMarkerAlt, faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 
 
