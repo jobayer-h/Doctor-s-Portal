@@ -29,7 +29,7 @@ const Blog = () => {
         }
     ];
     return (
-        <div className="my-5">
+        <div className="container my-5">
             <h4 className="text-center brand-text">OUR BLOG</h4>
             <h2 className="text-center" style={{marginBottom:'30px',marginTop:'40px'}}>From Our Blog News</h2>
 

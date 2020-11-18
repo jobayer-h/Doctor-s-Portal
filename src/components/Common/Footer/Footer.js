@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css'
+import { fabFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
-        <footer className="footer-container">
+        <footer className="container footer-container mt-5">
             <div className="row">
                 <div className="col-md-3">
                     <ul>
@@ -41,9 +44,12 @@ const Footer = () => {
                 <p className="brand-text">Our Address</p>
                     <ul>
                         <li>New York - 1000 Hudson Yards</li>
+                        <li>call now</li>
+                        <li className="btn btn-brand" >+110 729 3908</li>
                     </ul>
                 </div>
             </div>
+            <p className="text-center mt-2">Copyright {new Date().getFullYear()} . all rights reserved.</p>
         </footer>
     );
 };

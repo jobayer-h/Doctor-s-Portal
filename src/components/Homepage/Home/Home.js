@@ -18,16 +18,21 @@ const Home = () => {
                     <HeroComponent />
                 </div>
             </div>
-                
-            <div className="container">
-                <Services />
+            <Services />
+
+            <div className="appoinment-bg">
                 <Appoinment />
-                <Testimonial />
-                <Blog />
-                <Doctor />
-                <Contact />
-                <Footer />
             </div>
+
+            <Testimonial />
+            <Blog />
+            <Doctor />
+
+            <div className="contact-container">
+                <Contact />
+            </div>
+            
+            <Footer />
         </main>
     );
 };

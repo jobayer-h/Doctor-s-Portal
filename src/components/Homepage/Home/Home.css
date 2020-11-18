@@ -3,7 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 700px;
     position: relative;
 }
 .hero-bg::after{
@@ -15,4 +14,10 @@
     width: 30%;
     content:'';
     z-index: -1;
+}
+
+@media (max-width:767px){
+    .apoinment-responsive{
+        margin-top:-150px;
+    }
 }
