@@ -5,15 +5,34 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Login from './components/Loginpage/Login';
+import { createContext, useState } from 'react';
+
+
+
+
+export const userContext = createContext()
+
 function App() {
+  
+  const [loggedInUser, setLoggedInUser] = useState({})
+
+console.log(loggedInUser);
+
   return (
+    <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
     <Router>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
       </Switch>
     </Router >
+  <h1>Loggedin User: {loggedInUser.name}</h1>
+    </userContext.Provider>
   );
 }
 

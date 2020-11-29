@@ -1,8 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css'
-import { fabFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
         <footer className="container footer-container mt-5">
