@@ -17,7 +17,7 @@ function App() {
   
   const [loggedInUser, setLoggedInUser] = useState({})
 
-console.log(loggedInUser);
+console.log(loggedInUser.email);
 
   return (
     <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
@@ -31,7 +31,7 @@ console.log(loggedInUser);
         </Route>
       </Switch>
     </Router >
-  <h1>Loggedin User: {loggedInUser.name}</h1>
+  <h1>Loggedin User: {loggedInUser.displayName}</h1>
     </userContext.Provider>
   );
 }
