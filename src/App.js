@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Login from './components/Loginpage/Login';
 import { createContext, useState } from 'react';
+import Appoinment from './components/Appoinmentpage/Appoinment';
 
 
 
@@ -28,6 +29,9 @@ console.log(loggedInUser.email);
         </Route>
         <Route path="/login">
           <Login />
+        </Route>
+        <Route path="/appoinment">
+          <Appoinment />
         </Route>
       </Switch>
     </Router >

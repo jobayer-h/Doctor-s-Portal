@@ -1,0 +1,10 @@
+.appoinment-hero-bg{
+    background-image: url(../../images/Chair-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.calander{
+    margin-bottom: -50px;
+}

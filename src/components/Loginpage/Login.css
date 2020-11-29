@@ -1,0 +1,15 @@
+.login-section{
+    height: 100vh;
+    background-image: url(../../images/loginsvg.png);
+}
+main.login-section {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form {
+    height: 327px;
+    box-shadow: -20px 15px 19px 0px whitesmoke;
+    background-color: white;
+    display: grid;
+}
