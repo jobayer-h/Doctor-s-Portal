@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './Login.css'
 import firebase from "firebase/app";
 import "firebase/auth";
-import firebaseConfig from './firebaseConfig';
+import firebaseConfig from '../../firebaseConfig';
 import { userContext } from '../../App';
 import Navbar from '../Common/Navbar/Navbar';
 if (!firebase.apps.length) {
