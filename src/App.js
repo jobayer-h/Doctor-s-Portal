@@ -19,8 +19,6 @@ function App() {
   
   const [loggedInUser, setLoggedInUser] = useState({})
 
-console.log(loggedInUser.email);
-
   return (
     <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
     <Router>

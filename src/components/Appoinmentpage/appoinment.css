@@ -8,3 +8,8 @@
 .calander{
     margin-bottom: -50px;
 }
+.innerContainer {
+    padding: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 45px -2px #ded6d6;
+}

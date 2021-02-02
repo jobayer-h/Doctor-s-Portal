@@ -10,3 +10,7 @@
   color: #5fc7c7;
   font-weight: bold;
 }
+#center-btn{
+  margin: auto;
+  display: block;
+}
