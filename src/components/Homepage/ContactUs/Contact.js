@@ -27,7 +27,7 @@ const Contact = () => {
                             <textarea ref={register} name="Message" class="form-control" placeholder="Your Message" rows="5"></textarea>
                         </div>
                         <div class="form-group contact-btn">
-                            <input ref={register} class="btn btn-brand" type="submit" />
+                            <input ref={register} class="btn btn-brand" type="submit" value="Submit Message" />
                         </div>
 
                     </form>

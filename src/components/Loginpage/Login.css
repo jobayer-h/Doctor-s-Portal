@@ -7,7 +7,7 @@ main.login-section {
     background-position: right;
 }
 
-form {
+.login-form {
     height: 327px;
     box-shadow: -20px 15px 19px 0px whitesmoke;
     background-color: white;

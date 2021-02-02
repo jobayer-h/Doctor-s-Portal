@@ -8,6 +8,7 @@ import {
 import Login from './components/Loginpage/Login';
 import { createContext, useState } from 'react';
 import Appoinment from './components/Appoinmentpage/Appoinment';
+import PriveteRoute from './components/Loginpage/PrivateRoute';
 
 
 
@@ -30,9 +31,9 @@ console.log(loggedInUser.email);
         <Route path="/login">
           <Login />
         </Route>
-        <Route path="/appoinment">
+        <PriveteRoute path="/appoinment">
           <Appoinment />
-        </Route>
+        </PriveteRoute>
       </Switch>
     </Router >
   <h1>Loggedin User: {loggedInUser.displayName}</h1>
